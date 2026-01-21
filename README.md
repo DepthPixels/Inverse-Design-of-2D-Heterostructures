@@ -1,6 +1,10 @@
 # Inverse Design of 2D Heterostructures
 
 ## todo
+1. Clustering Model to find the properties that affect band gap range (good for semicond use) the most.
+2. Use Graph Variational Auto-Encoder to generate possible 2D Heterostructures.
+3. Use Graph Neural Network to test the properties of such structures and then determine if they are within viable range.
+4. For ones with exceptional results, use Quantum Espresso to run Density Functional Theory on them to verify results.
 
 ## Encodable Properties
 Material identity/composition of each layer (e.g., graphene, MoS₂, h-BN, etc.)
