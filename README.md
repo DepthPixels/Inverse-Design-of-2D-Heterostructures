@@ -3,7 +3,9 @@
 
 ## goal
 
-?? determine predictive qualities of a good semiconductor using the materials we know that work well and the ones that don't work well
+determine predictive qualities of a good semiconductor using bandgap, carrier mobility, effective mass
+
+use the properties for a weighted reward function for gvae later
 
 have a gvae (graph variational autoencoder) that randomly generates 2d heterostructures
 
