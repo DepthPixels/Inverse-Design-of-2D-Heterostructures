@@ -1,6 +1,7 @@
 from mp_api.client import MPRester
+import os
 
-API_KEY = "BQX0XRiA88vGwkValqBMdLw3459tJAOA"  # Replace with your personal key
+API_KEY = os.getenv("API_KEY")  # Replace with your personal key
 
 # Recommended usage with the Python "with" context manager:
 with MPRester(API_KEY) as mpr:
